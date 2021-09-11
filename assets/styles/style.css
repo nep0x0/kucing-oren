@@ -121,7 +121,7 @@ footer {
 
 .read-more-btn:active {
     box-shadow: 0 0 0 white;
-    margin: 6px 10px 2px 11px;
+    margin: 6px 10px 2px 10px;
 }
 
 .text.show-more .moreText {

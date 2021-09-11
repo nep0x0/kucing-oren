@@ -32,17 +32,16 @@ nav li {
 
 nav {
     background-color: #F6DCBF;
-    padding: 5px;
+    padding: 0px;
     position: sticky;
     top: 0;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 nav a {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
     color: black;
 }
@@ -110,12 +109,11 @@ footer {
     display: none;
 }
 .read-more-btn {
-    padding: 15px 60px;
+    padding: 10px 50px;
     background-color: rgb(149, 170, 197);
     color: rgb(53, 49, 49);
-    /*border: none;
-    outline: none;*/
     font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -133,8 +131,23 @@ footer {
 
 @media screen and (max-width: 1000px) {
     #content,
-    aside {
+    aside,
+    .read-more-btn {
         width: 100%;
         padding: 0;
     }
+
+    .read-more-btn {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
 }
